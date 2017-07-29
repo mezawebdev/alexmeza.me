@@ -1,0 +1,22 @@
+# Site settings
+title: ALEX MEZA
+email: mezawebdev@gmail.com
+description: Full Stack Web Development 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Social settings
+500px_url:
+facebook_url: https://www.facebook.com/Meza-Web-Development-104631073453071/
+github_url: https://github.com/alexmezx/
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/mezawebdev/
+linkedin_url: https://www.linkedin.com/in/alex-meza-6419b4117/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/mezawebdev/
+codepen_url: https://codepen.io/mezawebdev/
+
+# Build settings
+markdown: kramdown
