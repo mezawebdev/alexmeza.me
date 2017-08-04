@@ -2468,7 +2468,8 @@
 
 #projects-reel-container {
 	position: relative;
-	left: 15px;
+	transform: translate(-50%, 0);
+	left: 53%;
 }
 
 #projects-reel-container ul li:nth-child(4) {
@@ -2550,6 +2551,12 @@
 	-webkit-transition: opacity .25s ease-in-out;
 }
 
+@media (min-width: 1682px) {
+	#projects-reel-container {
+		left: 75%;
+	}
+}
+
 @media (max-width: 480px) {
 	.project-overlay {
 		margin-left: 10px;
@@ -2585,10 +2592,11 @@
 	#projects-reel-container ul li:nth-child(4) button {
 		top: 0;
 	}
-
+}
+/*
 	#projects-reel-container {
 		position: relative;
-		left: -10px;
+		left: 50%;
 	}
 }
 
@@ -2606,7 +2614,7 @@
 		left: -4px !important;
 	}
 }
-
+*/
 .project-overlay:hover {
 	opacity: 1;
 }

@@ -218,7 +218,7 @@
 
 		/* Header: Types out website title and animates cursor and fixed ::before space */
 		if (currentPage[3] === "#" || currentPage[3] === "" || currentPage[3] === "index.html" || currentPage[3] === "index.html?" || currentPage[3] === "index.html?#" || currentPage[3] === "index.html#") {
-			if ( ! isMobile) {
+			if (false /*! isMobile*/) {
 				$("#navbar-wrapper").css("display", "none");
 				$("#main-title").typed({
 					strings: ["Alex<br /><span class='last-name'>Meza</span><span class='typed-cursor last-name move-down'>|</span>"],
