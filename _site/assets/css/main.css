@@ -2290,6 +2290,12 @@
 }
 
 .web-app-project-1 {
+	background-image: url(../images/sacred-geom.png);
+	background-size: cover;
+	background-position: 55% 0%;
+}
+
+.web-app-project-2 {
 	background-image: url(../images/thought-space.png);
 	background-size: cover;
 	background-position: 55% 0%;
@@ -2344,17 +2350,42 @@
 /* About Me Section */
 
 #profile-picture {
-	width: 150px;
-	height: 150px;
+	width: 280px;
+	height: 180px;
 	margin: 0 auto;
 	margin-top: 25px;
-	border-radius: 75px;
+
 	background: red;
 	border-bottom: 5px;
 	margin-bottom: 45px;
 	background-position: top !important;
+	background-size: 100% !important;
+	background: url("../images/profile-1.jpg") no-repeat center;
+}
+
+@media (min-width: 420px) {
+	#profile-picture {
+		width: 400px;
+		height: 300px;
+	}
+	#profile-picture-main {
+		width: 400px;
+		height: 300px;
+	}
+}
+
+#profile-picture-main {
+	height: 180px;
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 25px;
+	border-radius: 5px;
+	background: red;
+	border-bottom: 5px;
+	margin-bottom: 45px;
+	background-position: 50% 50% !important;
 	background-size: 140% !important;
-	background: url("../images/profile-picture-small.jpg") no-repeat center;
+	background: url("../images/profile-0-1.jpg") no-repeat center;
 }
 
 #about-me p {
@@ -2997,6 +3028,14 @@
   /*****************************/
  /* END OF EDITS BY ALEX MEZA */
 /*****************************/
+
+
+
+
+
+
+
+
 
 
 /* BACKGROUND TRANSITIONS */
